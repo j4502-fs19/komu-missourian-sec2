@@ -1,5 +1,6 @@
 #menu a:link, #menu a:visited{
   font-family: 'Raleway', sans-serif;
+  /* I think we need a more exciting for the site. It looks too basic personally but let me know what you all think */
   display: block;
   color: #97999b;
   background-color: #f1b82d;
@@ -24,5 +25,31 @@ h1{
 
 #socials{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row-reverse;
 }
+/* The twitter and facebook logos are images with the backgrounds nonexistent but instagram isn't so if someone wants to find one with no background and just replace it in the code that would be stellar */
+#logos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  align-self: baseline;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+border: none;
+display: flex;
+justify-content: center;
+}
+
+/* temporary image to show what the homepage could look like */
+
+body{
+  background-color: #c89403
+}
+/* This is just a test for background colors for the site. If we want to keep white just delete and make the background white */
