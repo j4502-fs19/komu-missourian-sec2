@@ -1,6 +1,6 @@
 #menu a:link, #menu a:visited{
   font-family: 'Raleway', sans-serif;
-  /* I think we need a more exciting for the site. It looks too basic personally but let me know what you all think */
+  /* I think we need a more exciting font for the site. It looks too basic personally but let me know what you all think */
   display: block;
   color: #97999b;
   background-color: #f1b82d;
@@ -23,7 +23,10 @@ h1{
   color: black;
 }
 
-.projectmenu{
+#projectmenu a:link,
+background
+
+#projectmenu{
   display: flex;
   flex-direction: column;
   align-content: center;
