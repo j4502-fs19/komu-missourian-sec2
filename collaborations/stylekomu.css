@@ -36,8 +36,6 @@ color: white;
 max-width: 150px;
 }
 
-
-
 #projectmenu{
   display: flex;
   flex-direction: column;
@@ -45,6 +43,19 @@ max-width: 150px;
   align-self: baseline;
   justify-content: space-around;
 width:
+}
+
+#boxes{
+width: 320px;
+height: 220px;
+padding: 10px;
+border: 5px solid gray;
+margin: 10px;
+}
+
+#boxes{
+  display: flex;
+  justify-content: space-around;
 }
 
 #socials{
@@ -69,6 +80,11 @@ h1{
 border: none;
 display: flex;
 justify-content: center;
+}
+
+h2{
+  font-style: 'Raleway', sans-serif;
+  color: black;
 }
 
 /* temporary image to show what the homepage could look like */
