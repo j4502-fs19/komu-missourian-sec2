@@ -1,6 +1,9 @@
 #menu a:link, #menu a:visited{
-  font-family: 'Raleway', sans-serif;
-  /* I think we need a more exciting font for the site. It looks too basic personally but let me know what you all think */
+  font-family: 'Poppins', sans-serif;
+  /* I think we need a more exciting font for the site. It looks too basic personally but let me know what you all think. -Taylor
+  I tried changing it to Poppins which is what we had on our creative brief but it isn't changing the live site, which is now on Raleway
+  (our body font). the google fonts weren't linked so it wasn't showing what we had wanted and was
+  defaulting to Arial - Mackenzie */
   display: block;
   color: #97999b;
   background-color: #f1b82d;
@@ -18,13 +21,22 @@ ul{
 }
 
 h1{
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold 700;
   color: black;
 }
 
-#projectmenu a:link,
-background
+/* this menu eventually link to other archived pages once we have content to fill the site with. -Mack */
+#projectmenu
+{
+font-family: sans-serif;
+text-align: left;
+color: white;
+  background-color: black;
+max-width: 150px;
+}
+
+
 
 #projectmenu{
   display: flex;
@@ -32,7 +44,7 @@ background
   align-content: center;
   align-self: baseline;
   justify-content: space-around;
-
+width:
 }
 
 #socials{
@@ -63,6 +75,12 @@ justify-content: center;
 
 body{
   background-color: #c89403
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
 
