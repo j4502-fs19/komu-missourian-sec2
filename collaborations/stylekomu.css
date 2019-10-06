@@ -23,6 +23,15 @@ h1{
   color: black;
 }
 
+.projectmenu{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-self: baseline;
+  justify-content: space-around;
+
+}
+
 #socials{
   display: flex;
   flex-direction: row-reverse;
@@ -52,4 +61,6 @@ justify-content: center;
 body{
   background-color: #c89403
 }
+
+
 /* This is just a test for background colors for the site. If we want to keep white just delete and make the background white */
