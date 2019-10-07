@@ -27,6 +27,38 @@ h1{
   justify-content: center;
 }
 
+/* this menu eventually link to other archived pages once we have content to fill the site with. -Mack */
+#projectmenu
+{
+font-family: sans-serif;
+text-align: left;
+color: white;
+  background-color: black;
+max-width: 150px;
+}
+
+#projectmenu{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-self: baseline;
+  justify-content: space-around;
+width:
+}
+
+#boxes{
+width: 320px;
+height: 220px;
+padding: 10px;
+border: 5px solid gray;
+margin: 10px;
+}
+
+#boxes{
+  display: flex;
+  justify-content: space-around;
+}
+
 #socials{
   display: flex;
   flex-direction: row-reverse;
@@ -46,11 +78,24 @@ display: flex;
 justify-content: center;
 }
 
+h2{
+  font-style: 'Raleway', sans-serif;
+  color: black;
+}
+
 /* temporary image to show what the homepage could look like */
 
 body{
   background-color: #white
 }
+
+p{
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+
 /* This is just a test for background colors for the site. If we want to keep white just delete and make the background white */
 
 
