@@ -1,16 +1,18 @@
 #menu a:link, #menu a:visited{
-  font-family: 'Raleway', sans-serif;
-  /* I think we need a more exciting for the site. It looks too basic personally but let me know what you all think */
-  display: block;
-  color: #97999b;
-  background-color: #f1b82d;
-  text-align: center;
+  display:block;
+  color: #ffffff;
+  background-color: #000000;
+  font-weight: bold;
+  text-align:center;
   text-decoration: none;
-  padding: 0;
+  padding: 4px;
+  font-family: 'Raleway', sans-serif;
+  margin: auto;
 }
 
-#menu a:link, #menu a:hover{
-background-color: black;
+#menu a:hover, #menu a:active {
+    background-color: #97999b;
+    color: #ffffff;
 }
 
 ul{
@@ -18,9 +20,11 @@ ul{
 }
 
 h1{
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
   color: black;
+  display: flex;
+  justify-content: center;
 }
 
 #socials{
@@ -36,11 +40,6 @@ h1{
   align-self: baseline;
 }
 
-h1{
-  display: flex;
-  justify-content: center;
-}
-
 .container{
 border: none;
 display: flex;
@@ -50,6 +49,39 @@ justify-content: center;
 /* temporary image to show what the homepage could look like */
 
 body{
-  background-color: #c89403
+  background-color: #white
 }
 /* This is just a test for background colors for the site. If we want to keep white just delete and make the background white */
+
+
+.navigation {
+	background-color: #000000;
+	display: flex;
+	flex-direction: row;
+}
+
+p{
+  margin: auto;
+  text-align: center;
+font-family: 'Merriweather', serif;
+}
+
+#container{
+  width: 60%;
+  margin:auto;
+}
+
+img{
+  border: none;
+  display: flex;
+  align-content: left;
+  padding: 10px;
+  float: left;
+}
+
+.image-right{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-content:right;
+  float: right;
+}
