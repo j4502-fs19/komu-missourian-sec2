@@ -1,19 +1,18 @@
 #menu a:link, #menu a:visited{
-  font-family: 'Poppins', sans-serif;
-  /* I think we need a more exciting font for the site. It looks too basic personally but let me know what you all think. -Taylor
-  I tried changing it to Poppins which is what we had on our creative brief but it isn't changing the live site, which is now on Raleway
-  (our body font). the google fonts weren't linked so it wasn't showing what we had wanted and was
-  defaulting to Arial - Mackenzie */
-  display: block;
-  color: #97999b;
-  background-color: #f1b82d;
-  text-align: center;
+  display:block;
+  color: #ffffff;
+  background-color: #000000;
+  font-weight: bold;
+  text-align:center;
   text-decoration: none;
-  padding: 0;
+  padding: 4px;
+  font-family: 'Raleway', sans-serif;
+  margin: auto;
 }
 
-#menu a:link, #menu a:hover{
-background-color: black;
+#menu a:hover, #menu a:active {
+    background-color: #97999b;
+    color: #ffffff;
 }
 
 ul{
@@ -22,8 +21,10 @@ ul{
 
 h1{
   font-family: 'Poppins', sans-serif;
-  font-weight: bold 700;
+  font-weight: 700;
   color: black;
+  display: flex;
+  justify-content: center;
 }
 
 /* this menu eventually link to other archived pages once we have content to fill the site with. -Mack */
@@ -45,6 +46,12 @@ max-width: 150px;
 width:
 }
 
+.section{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+
 #boxes{
 width: 320px;
 height: 220px;
@@ -56,6 +63,8 @@ margin: 10px;
 #boxes{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 #socials{
@@ -69,11 +78,6 @@ margin: 10px;
   justify-content: space-around;
   align-content: center;
   align-self: baseline;
-}
-
-h1{
-  display: flex;
-  justify-content: center;
 }
 
 .container{
@@ -90,7 +94,15 @@ h2{
 /* temporary image to show what the homepage could look like */
 
 body{
-  background-color: #c89403
+<<<<<<< HEAD
+<<<<<<< HEAD
+  background-color: white
+=======
+  background-color: #white
+>>>>>>> bdfe7ac08bd86cd4b66e070e3edfee7dfd02bd10
+=======
+  background-color: #white
+>>>>>>> b27727752193aa8a98534ceb394b451bfdf5b5b4
 }
 
 p{
@@ -101,3 +113,36 @@ p{
 
 
 /* This is just a test for background colors for the site. If we want to keep white just delete and make the background white */
+
+
+.navigation {
+	background-color: #000000;
+	display: flex;
+	flex-direction: row;
+}
+
+p{
+  margin: auto;
+  text-align: center;
+font-family: 'Merriweather', serif;
+}
+
+#container{
+  width: 60%;
+  margin:auto;
+}
+
+img{
+  border: none;
+  display: flex;
+  align-content: left;
+  padding: 10px;
+  float: left;
+}
+
+.image-right{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-content:right;
+  float: right;
+}
