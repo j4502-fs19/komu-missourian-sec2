@@ -46,6 +46,12 @@ max-width: 150px;
 width:
 }
 
+.section{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+
 #boxes{
 width: 320px;
 height: 220px;
@@ -57,6 +63,8 @@ margin: 10px;
 #boxes{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 #socials{
@@ -89,7 +97,19 @@ h2{
 /* temporary image to show what the homepage could look like */
 
 body{
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  background-color: white
+=======
   background-color: #white
+>>>>>>> bdfe7ac08bd86cd4b66e070e3edfee7dfd02bd10
+=======
+  background-color: #white
+>>>>>>> b27727752193aa8a98534ceb394b451bfdf5b5b4
+=======
+  background-color: #white
+>>>>>>> b27727752193aa8a98534ceb394b451bfdf5b5b4
 }
 
 p{
