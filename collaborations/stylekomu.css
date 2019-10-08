@@ -1,3 +1,10 @@
+
+
+#menu li a:hover {
+  color: #FFFFFF;
+  background-color: #grey;
+}
+
 #menu a:link, #menu a:visited{
   display:block;
   color: #ffffff;
@@ -5,18 +12,30 @@
   font-weight: bold;
   text-align:center;
   text-decoration: none;
-  padding: 4px;
-  font-family: 'Raleway', sans-serif;
-  margin: auto;
+  padding: 2px;
+  font-family: 'Poppins', sans-serif;
+  border-bottom: 1px solid #ccc;
+
 }
 
-#menu a:hover, #menu a:active {
+#menu a:hover {
     background-color: #97999b;
     color: #ffffff;
 }
 
+head {
+  background-color: #c89403
+}
+
+{margin:0px; padding:0px;}
+
 ul{
   list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+
 }
 
 h1{
@@ -51,6 +70,10 @@ display: grid;
 grid-template-columns: 1fr 1fr;
 }
 
+.section {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 #boxes{
 width: 320px;
@@ -87,7 +110,7 @@ justify-content: center;
 }
 
 h2{
-  font-style: 'Raleway', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: black;
 }
 
@@ -104,19 +127,7 @@ h2{
 /* temporary image to show what the homepage could look like */
 
 body{
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  background-color: white
-=======
-  background-color: #white
->>>>>>> bdfe7ac08bd86cd4b66e070e3edfee7dfd02bd10
-=======
-  background-color: #white
->>>>>>> b27727752193aa8a98534ceb394b451bfdf5b5b4
-=======
-  background-color: #white
->>>>>>> b27727752193aa8a98534ceb394b451bfdf5b5b4
+background-color: white;
 }
 
 p{
@@ -138,7 +149,7 @@ p{
 p{
   margin: auto;
   text-align: center;
-font-family: 'Merriweather', serif;
+font-family: 'Libre Baskerville', serif;
 }
 
 .sidebar{
