@@ -23,19 +23,14 @@
     color: #ffffff;
 }
 /* this will change setup to desktop menu style when changing .menu to #menu. */
-.menu {
-	background-color: #000000;
-	display: flex;
-	flex-direction: row;
-}
 
 head {
   background-color: #c89403
 }
 
-{margin:0px; padding:0px;}
 
-ul{
+
+#menu ul{
   list-style-type: none;
   margin: 0px;
   padding: 0;
@@ -85,12 +80,7 @@ grid-template-columns: 1fr 1fr;
   flex-wrap: wrap;
 }
 
-@media screen and (min-width: 599px) {
-  #menu{
-    flex-flow: row wrap;
-    align-content: center;
-  }
-}
+
 
 #boxes{
 width: 320px;
@@ -195,6 +185,65 @@ img{
 }
 /* JAVASCRIPT STARTS HERE. PLEASE DO NOT TOUCH THIS CODE. -Mackenzie */
 
+#menu {
+    display: block;
+    list-style-type: none;
+}
+
+
+header {
+    display: flex;
+    flex-flow: row;
+}
+
+.menu-trigger {
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+}
+
+
+#menu {
+    display: none;
+}
+
+@media screen and (min-width: 599px) {
+
+  #menu {
+  	background-color: #000000;
+  	display: flex;
+  	flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .menu-trigger{
+    display:none;
+  }
+
+
+}
+
+@media screen and (min-width: 700px){
+
+    #menu ul {
+        display: flex;
+    }
+
+
+    .menu-trigger {
+        display: none;
+    }
+
+    header h1 {
+        order: 1;
+    }
+
+    nav {
+        order: 2;
+    }
+
+}
+
 /* SLIDER */
 .flex-container a:active,
 .flexslider a:active,
@@ -255,8 +304,9 @@ html[xmlns] .slides { display: block; }
 
 /* Size of flex container  */
 .flex-container {
-	min-width: 150px;
+  min-width: 150px;
 	max-width: 960px;
+  margin:0 auto;
   display: flex;
   justify-content: center;
 }
