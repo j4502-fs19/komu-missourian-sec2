@@ -1,0 +1,384 @@
+
+
+#menu li a:hover {
+  color: #FFFFFF;
+  background-color: #grey;
+}
+
+#menu a:link, #menu a:visited{
+  display:block;
+  color: #ffffff;
+  background-color: #000000;
+  font-weight: bold;
+  text-align:center;
+  text-decoration: none;
+  padding: 2px;
+  font-family: 'Poppins', sans-serif;
+  border-bottom: 1px solid #ccc;
+
+}
+
+#menu a:hover {
+    background-color: #97999b;
+    color: #ffffff;
+}
+/* this will change setup to desktop menu style when changing .menu to #menu. */
+.menu {
+	background-color: #000000;
+	display: flex;
+	flex-direction: row;
+}
+
+head {
+  background-color: #c89403
+}
+
+{margin:0px; padding:0px;}
+
+ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.header {
+  background-color: #c89403
+}
+
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+/* this menu eventually link to other archived pages once we have content to fill the site with. -Mack */
+#projectmenu
+{
+font-family: sans-serif;
+text-align: left;
+color: white;
+  background-color: black;
+max-width: 150px;
+}
+
+#projectmenu{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-self: baseline;
+  justify-content: space-around;
+width:
+}
+
+.section{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 599px) {
+  #menu{
+    flex-flow: row wrap;
+    align-content: center;
+  }
+}
+
+#boxes{
+width: 320px;
+height: 220px;
+padding: 10px;
+border: 5px solid gray;
+margin: 10px;
+}
+
+#boxes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#socials{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#logos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  align-self: baseline;
+}
+
+.container{
+border: none;
+display: flex;
+justify-content: center;
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+.byline{
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+}
+/* temporary image to show what the homepage could look like */
+
+body{
+background-color: white;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* This is just a test for background colors for the site. If we want to keep white just delete and make the background white */
+
+
+
+p{
+  margin: auto;
+  text-align: center;
+font-family: 'Libre Baskerville', serif;
+}
+
+.sidebar{
+font-family: 'Poppins', sans-serif;
+color: black;
+font-weight: 400;
+font-size: 20px;
+text-align: left;
+display: flex;
+flex-wrap: wrap;
+}
+
+#container{
+  width: 60%;
+  margin:auto;
+}
+
+img{
+  border: none;
+  display: flex;
+  align-content: left;
+  padding: 10px;
+  float: left;
+}
+
+.image-right{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-content:right;
+  float: right;
+}
+/* JAVASCRIPT STARTS HERE. PLEASE DO NOT TOUCH THIS CODE. -Mackenzie */
+
+/* SLIDER */
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  { outline: none; }
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.flexslider a img { outline: none; border: none; }
+
+.flexslider {
+	margin: 0;
+	padding: 0;
+}
+
+/* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides > li {
+	display: none;
+	-webkit-backface-visibility: hidden;
+}
+
+.flexslider .slides img {
+	width: 100%;
+	display: block;
+	border-radius: 2px;
+}
+
+/* Clearfix for the .slides element */
+.slides:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+html[xmlns] .slides { display: block; }
+* html .slides { height: 1%; }
+
+
+
+/* Theme Styles */
+.flexslider {
+	position: relative;
+	zoom: 1;
+	padding: 10px;
+	background: #ffffff;
+	border-radius: 3px;
+	box-shadow: 0px 1px 1px rgba(0,0,0, .2);
+}
+
+/* Size of flex container  */
+.flex-container {
+	min-width: 150px;
+	max-width: 960px;
+  display: flex;
+  justify-content: center;
+}
+
+.flexslider .slides { zoom: 1; }
+
+
+
+/* Direction Nav */
+.flex-direction-nav a {
+	display: block;
+	position: absolute;
+	margin: -17px 0 0 0;
+	width: 35px;
+	height: 35px;
+	top: 50%;
+	cursor: pointer;
+	text-indent: -9999px;
+	z-index: 9999;
+	background-color: #82d344;
+	background-image: linear-gradient(to bottom, #82d344, #51af34);
+}
+
+.flex-direction-nav a:before {
+	display: block;
+	position: absolute;
+	content: '';
+	width: 9px;
+	height: 13px;
+	top: 11px;
+	left: 11px;
+	background: url(img/arrows.png) no-repeat;
+}
+
+.flex-direction-nav a:after {
+	display: block;
+	position: absolute;
+	content: '';
+	width: 0;
+	height: 0;
+	top: 35px;
+}
+
+.flex-direction-nav .flex-next {
+	right: -5px;
+	border-radius: 3px 0 0 3px;
+}
+
+.flex-direction-nav .flex-prev {
+	left: -5px;
+	border-radius: 0 3px 3px 0;
+}
+
+.flex-direction-nav .flex-next:before {
+  background-position: -9px 0;
+  left: 15px;
+}
+
+.flex-direction-nav .flex-prev:before {
+  background-position: 0 0;
+}
+
+.flex-direction-nav .flex-next:after {
+	right: 0;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid #31611e;
+}
+
+.flex-direction-nav .flex-prev:after {
+	left: 0;
+	border-bottom: 5px solid transparent;
+	border-right: 5px solid #31611e;
+}
+
+
+/* Control Nav */
+.flexslider .flex-control-nav {
+	position: absolute;
+	width: 100%;
+	bottom: -40px;
+	text-align: center;
+	margin: 0 0 0 -10px;
+}
+
+.flex-control-nav li {
+	display: inline-block;
+	zoom: 1;
+}
+
+.flex-control-paging li a {
+	display: block;
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 12px;
+	height: 12px;
+	margin: 0 3px;
+	background-color: #b6b6b6 \9;
+	border-radius: 12px;
+	box-shadow: inset 0 0 0 2px #b6b6b6;
+}
+
+.flex-control-paging li a.flex-active {
+	background-color: #82d344;
+	background-image: linear-gradient(to bottom, #82d344, #51af34);
+  box-shadow: none;
+}
+
+/* Captions */
+.flexslider .slides p {
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 0 5px;
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 20px;
+	color: white;
+	background-color: #222222;
+	background: rgba(0,0,0, .9);
+	border-radius: 2px;
+}
