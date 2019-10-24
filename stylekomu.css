@@ -189,6 +189,7 @@ img{
 header {
     display: flex;
     flex-flow: row;
+justify-content: space-around;
 }
 
 .menu-trigger {
@@ -381,9 +382,9 @@ html[xmlns] .slides { display: block; }
 .flexslider .flex-control-nav {
 	position: absolute;
 	width: 100%;
-	bottom: -40px;
+	bottom: -30px;
 	text-align: center;
-	margin: 0 0 0 -10px;
+	margin: 0 0 20px -10px;
 }
 
 .flex-control-nav li {
