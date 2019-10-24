@@ -110,11 +110,6 @@ margin: 10px;
   align-self: baseline;
 }
 
-.container{
-border: none;
-display: flex;
-justify-content: center;
-}
 
 h2{
   font-family: 'Poppins', sans-serif;
