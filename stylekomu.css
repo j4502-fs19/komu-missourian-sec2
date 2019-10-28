@@ -146,7 +146,8 @@ p{
 p{
   margin: auto;
   text-align: center;
-font-family: 'Libre Baskerville', serif;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 20px;
 }
 
 .sidebar{
@@ -178,6 +179,35 @@ img{
   align-content:right;
   float: right;
 }
+
+.image-center{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-content:right;
+  float: center;
+  padding-top: 3em;
+}
+
+#story-container{
+  width: 60%;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+#subhead{
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.caption{
+  width: 63%;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bolder;
+padding-bottom: 3em;
+}
+
 /* JAVASCRIPT STARTS HERE. PLEASE DO NOT TOUCH THIS CODE. -Mackenzie */
 
 #menu {
