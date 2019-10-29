@@ -397,6 +397,7 @@ html[xmlns] .slides { display: block; }
 	padding: 10px;
 	background: #ffffff;
 	border-radius: 3px;
+	box-shadow: 0px 1px 1px rgba(0,0,0, .2);
 }
 
 /* Size of flex container  */
@@ -484,7 +485,7 @@ html[xmlns] .slides { display: block; }
 	width: 100%;
 	bottom: -30px;
 	text-align: center;
-	margin: 0 0 20px -10px;
+	margin: 0 0 0 -10px;
 }
 
 .flex-control-nav li {
