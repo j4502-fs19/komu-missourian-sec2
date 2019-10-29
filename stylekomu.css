@@ -51,6 +51,13 @@ h1{
   justify-content: center;
 }
 
+h3{
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+}
+
 /* this menu eventually link to other archived pages once we have content to fill the site with. -Mack */
 #projectmenu
 {
@@ -299,6 +306,8 @@ header {
     width: 2em;
     display: flex;
     justify-content: center;
+    color: black;
+    background-color: white;
 
 
 }
