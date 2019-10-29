@@ -299,7 +299,7 @@ header {
     width: 2em;
     display: flex;
     justify-content: center;
-    
+
 
 }
 
@@ -347,6 +347,8 @@ header {
 }
 
 /* SLIDER */
+
+/* Browser Resets */
 .flex-container a:active,
 .flexslider a:active,
 .flex-container a:focus,
@@ -401,7 +403,6 @@ html[xmlns] .slides { display: block; }
 	padding: 10px;
 	background: #ffffff;
 	border-radius: 3px;
-	box-shadow: 0px 1px 1px rgba(0,0,0, .2);
 }
 
 /* Size of flex container  */
@@ -427,8 +428,8 @@ html[xmlns] .slides { display: block; }
 	cursor: pointer;
 	text-indent: -9999px;
 	z-index: 9999;
-	background-color: #FFFFFF;
-	background-image: linear-gradient(to bottom, #222222, #ffffff);
+	background-color: #ABB8B1;
+	background-image: #222222;
 }
 
 .flex-direction-nav a:before {
@@ -489,7 +490,7 @@ html[xmlns] .slides { display: block; }
 	width: 100%;
 	bottom: -30px;
 	text-align: center;
-	margin: 0 0 0 -10px;
+	margin: 0 0 20px -10px;
 }
 
 .flex-control-nav li {
