@@ -226,6 +226,26 @@ margin:auto;
 padding-bottom: 3em;
 }
 
+@media screen and (max-width:700px){
+.image-center{
+  display: none;
+}
+.caption{
+  display: none;
+}
+#story-container{
+  width: 90%;
+}
+}
+
+a{
+  padding-left: .25em;
+  padding-right: .25em;
+}
+
+.kbia{
+  padding:2em;
+}
 /* JAVASCRIPT STARTS HERE. PLEASE DO NOT TOUCH THIS CODE. -Mackenzie */
 
 #menu {
