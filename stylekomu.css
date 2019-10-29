@@ -246,6 +246,39 @@ a{
 .kbia{
   padding:2em;
 }
+
+
+.image-left{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-content:left;
+  float: left;
+}
+
+.headline{
+  text-align: center;
+
+}
+
+.description{
+  text-align: center;
+  font-size: 12px;
+}
+
+.headline a:link, a:visited{
+  color: #000000;
+  font-weight: bold;
+  text-align:center;
+  text-decoration: none;
+}
+
+.description a:link, a:visited{
+  color: #000000;
+  text-align:center;
+  text-decoration: none;
+}
+
+
 /* JAVASCRIPT STARTS HERE. PLEASE DO NOT TOUCH THIS CODE. -Mackenzie */
 
 #menu {
