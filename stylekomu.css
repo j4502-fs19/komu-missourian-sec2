@@ -51,6 +51,13 @@ h1{
   justify-content: center;
 }
 
+h3{
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+}
+
 /* this menu eventually link to other archived pages once we have content to fill the site with. -Mack */
 #projectmenu
 {
@@ -295,8 +302,14 @@ header {
 
 .menu-trigger {
     order: 1;
-    font-size: 1.75em;
+    font-size: 2em;
     width: 2em;
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: white;
+
+
 }
 
 
@@ -314,7 +327,7 @@ header {
   }
 
   .menu-trigger{
-    display:none;
+    display: none;
   }
 
 
@@ -343,6 +356,8 @@ header {
 }
 
 /* SLIDER */
+
+/* Browser Resets */
 .flex-container a:active,
 .flexslider a:active,
 .flex-container a:focus,
@@ -422,8 +437,8 @@ html[xmlns] .slides { display: block; }
 	cursor: pointer;
 	text-indent: -9999px;
 	z-index: 9999;
-	background-color: #FFFFFF;
-	background-image: linear-gradient(to bottom, #222222, #ffffff);
+	background-color: #ABB8B1;
+	background-image: #222222;
 }
 
 .flex-direction-nav a:before {
