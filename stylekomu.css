@@ -185,7 +185,7 @@ img{
   flex-wrap: wrap-reverse;
   align-content:right;
   float: center;
-  padding-top: 3em;
+  padding-top: 2em;
 }
 
 #story-container{
@@ -205,6 +205,24 @@ img{
   align-items: center;
   font-size: 15px;
   font-weight: bolder;
+padding-bottom: 3em;
+}
+
+.editorsnote{
+  align-items: center;
+  font-weight: bolder;
+  padding-top: 3em;
+}
+
+.note{
+  align-items: center;
+  font-weight: 600px;
+  padding-bottom: 3em;
+}
+
+iframe{
+display: block;
+margin:auto;
 padding-bottom: 3em;
 }
 
