@@ -313,8 +313,15 @@ header {
     justify-content: center;
     color: black;
     background-color: white;
+}
 
-
+.menu-trigger {
+  display:block;
+  color: #ffffff;
+  background-color: #000000;
+  font-weight: bold;
+  text-align:center;
+  text-decoration: none;
 }
 
 
