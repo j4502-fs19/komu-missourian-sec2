@@ -288,8 +288,16 @@ a{
   text-decoration: none;
 }
 
-#fnf{
+.fnfbanner img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.fnfdescription{
+  width: 60%;
+}
+
 
 /* JAVASCRIPT STARTS HERE. PLEASE DO NOT TOUCH THIS CODE. -Mackenzie */
 
