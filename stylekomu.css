@@ -104,6 +104,9 @@ margin: 10px;
   align-items: center;
 }
 
+#fnf{
+  background-image: url("fnf.jpg");
+}
 #socials{
   display: flex;
   flex-direction: row-reverse;
@@ -285,6 +288,8 @@ a{
   text-decoration: none;
 }
 
+#fnf{
+}
 
 /* JAVASCRIPT STARTS HERE. PLEASE DO NOT TOUCH THIS CODE. -Mackenzie */
 
