@@ -1,34 +1,28 @@
 
 
 #menu li a:hover {
-  color: #FFFFFF;
-  background-color: #grey;
+  color: #1e1e1e;
+  background-color: #ffffff;
 }
 
 #menu a:link, #menu a:visited{
   display:block;
-  color: #ffffff;
-  background-color: #000000;
+  color: #000000;
+  background-color: #ffffff;
   font-weight: bold;
   text-align:center;
   text-decoration: none;
+  font-size: 20px;
   padding: 2px;
   font-family: 'Poppins', sans-serif;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 0px;
 
 }
 
 #menu a:hover {
-    background-color: #97999b;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
 }
-
-head {
-  background-color: #c89403
-}
-
-
-
 #menu ul{
   list-style-type: none;
   margin: 0px;
@@ -36,6 +30,49 @@ head {
   width: 100%;
   font-family: 'Poppins', sans-serif;
 
+}
+
+.dropdown{
+  float:left;
+  overflow:hidden;
+}
+.dropdown .dropbtn{
+  font-family:inherit;
+  font-size: 20px;
+  color: white;
+  padding: 0px;
+  border: none;
+  outline: none;
+  margin: 0;
+
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a{
+  float:none;
+  color:black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover{
+  background-color:#ddd;
+}
+.dropdown:hover .dropdown-content{
+  display:block;
+}
+head {
+  background-color: #c89403
 }
 
 .header {
@@ -371,8 +408,8 @@ header {
 
 .menu-trigger {
   display:block;
-  color: #ffffff;
-  background-color: #000000;
+  color: #000000;
+  background-color: #ffffff;
   font-weight: bold;
   text-align:center;
   text-decoration: none;
@@ -386,7 +423,8 @@ header {
 @media screen and (min-width: 599px) {
 
   #menu {
-  	background-color: #000000;
+  	background-color: #ffffff;
+    color:inherit;
   	display: flex;
   	flex-direction: row;
     justify-content: space-around;
