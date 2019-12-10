@@ -98,6 +98,11 @@ margin: 10px;
 }
 
 #boxes{
+  width: 320px;
+  height: 220px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 10px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -298,7 +303,49 @@ a{
   width: 60%;
 }
 
+.projectdescription{
+  padding-bottom: 60px;
+}
+.fnf h2{
+  padding-left: 80px;
+}
 
+.fnf{
+  padding-left: 200px;
+  padding-right: 60px;
+}
+
+.fcp h2{
+  padding-left: 100px;
+}
+
+.section{
+  padding-top: 30px;
+}
+
+.capitalreporting{
+  width: 320px;
+  height: 220px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.moreprojects{
+  width: 320px;
+  height: 220px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
 /* JAVASCRIPT STARTS HERE. PLEASE DO NOT TOUCH THIS CODE. -Mackenzie */
 
 #menu {
