@@ -95,25 +95,6 @@ h3{
   justify-content: center;
 }
 
-/* this menu eventually link to other archived pages once we have content to fill the site with. -Mack */
-#projectmenu
-{
-font-family: sans-serif;
-text-align: left;
-color: white;
-  background-color: black;
-max-width: 150px;
-}
-
-#projectmenu{
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-self: baseline;
-  justify-content: space-around;
-  margin: 1em;
-}
-
 .section{
 display: grid;
 grid-template-columns: 1fr 1fr;
@@ -124,6 +105,10 @@ grid-template-columns: 1fr 1fr;
   flex-wrap: wrap;
 }
 
+#links{
+  display: flex;
+  justify-content: center;
+}
 
 
 #boxes{
